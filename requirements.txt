@@ -1,0 +1,13 @@
+langchain
+langchain-community
+pypdf
+torch
+pinecone
+langchain_pinecone
+sentence-transformers
+einops
+unstructured
+docx
+yt-dlp==2024.7.16
+paddleocr==2.8.1
+paddlepaddle==2.5.1
