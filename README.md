@@ -31,7 +31,6 @@ Tech used:
 
 Open any browser and go to `127.0.0.1:8501` to see the project
 
-### OutCome Demo
  
 ### Docs and PDFs Q&A
 
