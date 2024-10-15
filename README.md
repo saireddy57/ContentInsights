@@ -16,13 +16,22 @@ Tech used:
 ### How to run locally
 
 1. Clone the repository
-2. Uncomment the last line (`CMD` line) in Dockerfile and comment the 3rd last `CMD` line
-3. Create `.env` file with your own `OPENAI_API_KEY` and `ACTIVELOOP_TOKEN` at the root location of the project. Each can be obtained after creating account on `OpenAI` and `Activeloop` websites. You will be charged by OpenAI. The format of `.env` is as following:
+2. Create a conda environment conda create -n "ContentInsight" python=3.10 and activate it conda activate ContentInsight.
+3. Install requirements.txt using the command pip install -r requirements.txt.
+4.  Create `.env` file with your own `OPENAI_API_KEY` and `ACTIVELOOP_TOKEN` at the root location of the project. Each can be obtained after creating account on `OpenAI` and    
+    `Activeloop`websites.You will be charged by OpenAI. The format of `.env` is as following:
    ```
    OPENAI_API_KEY=YOURKEY
    ACTIVELOOP_TOKEN=YOURKEY
    ```
+5. Run **TWO terminals**
+   1. FastAPI - backend server **fastapi dev backend.py**
+   2. Streamlit - UI **streamlit run ui.py**
+6. You can access the application using the URL from the UI server.
+
 Open any browser and go to `127.0.0.1:8501` to see the project
+
+### OutCome Demo
  
 ### Docs and PDFs Q&A
 
